@@ -13,6 +13,10 @@
         /* seccion I N I C I O */
         /* *********************/
         
+        .oculto {
+            display: none;
+        }
+
         #inicio {
             background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
             background-size: cover;
@@ -505,7 +509,7 @@
         
         #contacto .btn-enviar {
             display: block;
-            margin: auto;
+            margin: auto;   
             cursor: pointer;
             transition: .5s;
             padding: 10px 15px !important;
@@ -622,3 +626,4 @@
                 margin-bottom: 15px;
             }
         }
+
